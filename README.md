@@ -1,6 +1,6 @@
 ![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
 
-# ProGrad Lab | REACT - PRO
+# ProGrad Lab | REACT - PROBOOKS
 
 ## Learning Goals
 
