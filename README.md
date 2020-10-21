@@ -22,11 +22,10 @@ Whenever you create a first significant change, you should make your first commi
 In the end of this document, you will find guidelines on how to submit the exercise.
 
 ## Instructions
-In this lab we will try to work with API's in react. The main idea of this lab is to fetch details from external API, process it and display it. We have four components 
+In this lab we will try to work with API's in react. The main idea of this lab is to fetch details from external API, process it and display it. We have three components 
 - HomeComponent
 - SearchComponent
-- LIKEORNOLIKEComponent
-- APIServiceComponent
+- BookComponent
 
 The main theme behind the lab is to fetch book details and display it for reading. They can like it or dislike it after they have read it. So let's start building it.
 ```API DETAILS
@@ -45,10 +44,28 @@ Kindly see the output:
 ![Image description](https://i1.faceprep.in/ProGrad/probook.gif)
 ### PROGRESSION 1 | GO FETCH AND COME BACK
 
-Create an api service component which fetches the data from the above api and keep it as an json array. 
+Fetch the data from the above api and display it in homeComponent. The homeComponent consists of three `div`
+- Read
+- Like
+- Dislike
+
+Based on the user selection you need to move the books to read, like or dislike. You can refer sample output.
 
 ### PROGRESSION 2 | LOAD IT TO ME
-Create a search component and when the user enters the book to be searched enter it and then 
+Create a `+` Button to call the search component. When the user enters the book to be searched, fetch the book based on the search parameter and display it.
+
+### PROGRESSION 3 | BOOK BOOK BOOK
+The bookcomponent has a button with 4 options
+- Read
+- Like
+- Dislike
+- Delete
+
+Based on the user selected value, render it in the home page and display it as per the selected value. Please refer the screenshot for reference.
+
+### Bonus
+Display at the bottom the count of books that are read,liked,disliked and deleted
+
 ## Submission
 
 If you didn't add, commit and push the changes you made, this is the last call. :smile:
