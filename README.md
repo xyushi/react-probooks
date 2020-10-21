@@ -42,7 +42,7 @@ const headers = {
 ```
 
 Kindly see the output:
-![Image description](https://i1.faceprep.in/ProGrad/book1.gif)
+![Image description](https://i1.faceprep.in/ProGrad/probook.gif)
 ### PROGRESSION 1 | GO FETCH AND COME BACK
 
 Create an api service component which fetches the data from the above api and keep it as an json array. 
